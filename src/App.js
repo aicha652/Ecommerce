@@ -1,10 +1,15 @@
 import './App.css';
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom"
+import Nav from './Navigation/Nav';
+import Products from './Products/Products';
+import Recommended from './Recommended/Recommended';
 
 function App() {
   return (
-    <div> 
-    </div>
+    <>
+     <Nav />
+     <Products />
+     <Recommended />
+    </>
   );
 }
 
