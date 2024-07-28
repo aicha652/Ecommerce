@@ -1,6 +1,6 @@
 import "./Nav.css"
 import React from 'react'
-import {FiHeart} from "react-icons"
+import { FiHeart } from "react-icons/fi";
 import { AiOutlineShoppingCart, AiOutlineUserAdd } from "react-icons/ai";
 
 export default function Nav() {
