@@ -3,11 +3,12 @@ import React from 'react'
 import { FiHeart } from "react-icons/fi";
 import { AiOutlineShoppingCart, AiOutlineUserAdd } from "react-icons/ai";
 
-export default function Nav() {
+export default function Nav({handleInputChange}) {
   return (
     <nav>
         <div className="nav-container">
             <input 
+             onChange={handleInputChange}
              type="text" 
              className="search-input" 
              placeholder="Enter your search shoes"
